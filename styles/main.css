@@ -2,22 +2,26 @@
 /* You may use #HEX or color names */
 
 /* * is a wildcard referring to all elements. */
-* { margin: 0; box-sizing: border-box; } 
+* { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+ } 
 
 body { 
     font-size: 16px; 
     line-height: 32px;
     font-family: Ubuntu, sans-serif ;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 h1 {
-    font-size: 3em;
-    color: #062d57;
+    font-size: 3rem;
+    color: #000080;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -25,7 +29,7 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 20px ;
+    max-width: 960px ;
 }
 
 header, footer, footer a {

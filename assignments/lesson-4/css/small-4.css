@@ -24,6 +24,7 @@ nav.desk ul li{
     cursor: pointer;
     transition: all 0.5s ease;
     background-color: #0091E0;
+    list-style:none
 }
 nav.desk ul li:hover{
     background: #0071AD;

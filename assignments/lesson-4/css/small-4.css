@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+#icon{
+    width: 60px;
+    float: left;
+}
+.logo{
+    text-align: left;
+    padding: 5px;
+}
+body{
+    font-family: "Noto Sans", sans-serif;
+    background-color: #BED8E6;    
+}
+nav.desk ul li{
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background-color: #0091E0;
+}
+nav.desk ul li:hover{
+    background: #0071AD;
+}
+nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}

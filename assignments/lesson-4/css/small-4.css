@@ -6,10 +6,10 @@
     user-select: none;
 }
 #icon{
-    width: 60px;
+    width: 8em;
     float: left;
 }
-.logo{
+.logotype{
     padding: 5px;
 }
 body{
@@ -28,8 +28,70 @@ nav.desk ul li{
 nav.desk ul li:hover{
     background: #0071AD;
 }
+main h1{
+    text-align: center;
+    margin: 3%;
+}
 nav ul li a{
     color: #FFFFFF;
     text-decoration: none;
     list-style:none;
+}
+#village, #map{
+    width: 100%;
+}
+.summary, header, .secmap{
+    position: relative;
+    padding: 20px;
+}
+.weather{
+    position: absolute;
+    padding: 20px;
+    font-size: 2em;
+    color: #FFFFFF;
+    background-color: #0091e0;
+    opacity: 0.8;
+    top: 20%;
+    left: 10%;
+}
+#persons{
+    width: 100%;
+}
+.article{    
+    position: relative;
+    margin: 5%;
+    padding: 40px;
+    top: 15px;
+    background-color: #003f61;
+    color: #FFFFFF;
+}
+.logo {
+    width: 4em;
+}
+.secmap{
+    position: relative;
+    margin: 5%;
+    padding: 40px;
+    background-color: #3C5B6B;
+    color: #FFFFFF;
+}
+footer{
+    text-align: center;
+    background-color: #0091E0;
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 0.8em;
+}
+section.summary h2{
+    text-decoration: underline;
+}
+section.article h3, section.secmap h3{
+    font-weight: bold;
+}
+section.secmap div{
+    position: relative;
+    left: 9em;
+}
+.ismall{
+    width:5%;    
 }

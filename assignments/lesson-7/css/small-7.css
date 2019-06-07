@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+#icon{
+    width: 7em;
+    float: left;
+}
+.logotype{
+    padding: 5px;
+}
+#title{
+    text-shadow: 2px 2px #9c9c9c;
+}
+body{
+    font-family: "Noto Sans", sans-serif;
+    background-color: #BED8E6;    
+    min-width: 500px;
+}
+.summary{
+    position: relative;
+}
+nav.desk ul li{
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background-color: #0091E0;
+}
+nav.desk ul li:hover{
+    background: #0071AD;
+}
+main h1{
+    text-align: center;
+    top:50px;
+    margin: 3%;
+}
+nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style:none;
+}
+#village{
+    display: block;
+    width: 80%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.map{
+    width: 300px;
+    margin: 20px;
+}
+
+.weather{
+    position: absolute;
+    padding: 20px;
+    font-size: 1em;
+    color: #FFFFFF;
+    background-color: #0091e0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #4F5C80;
+    opacity: 0.8;
+    top: 25%;
+    left: 10%;
+}
+.persons{
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #4F5C80;
+}
+.article{    
+    position: relative;
+    display: block;
+    width: 80%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25px;
+    background-color: #003f61;
+    color: #FFFFFF;
+}
+.logo {
+    width: 25px;
+    padding-top: 20px;
+}
+.secmap{
+    position: relative;
+    display: block;
+    width: 80%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    top:40px;
+    background-color: #3C5B6B;
+    color: #FFFFFF;
+}
+footer{
+    position: relative;
+    top: 40px;
+    height: 50px;
+    display: block;
+    width: 80%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 2%;
+    background-color: #0091E0;
+    color: #FFFFFF;
+    font-size: 0.8em;
+}
+section.summary h2{
+    text-decoration: underline;
+}
+section.article h3, section.secmap h3{
+    font-weight: bold;
+}
+
+.ismall{
+    width:20px;    
+}
+.summary, .article, .secmap, .temp{
+    display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+  

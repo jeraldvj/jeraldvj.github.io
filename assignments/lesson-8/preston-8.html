@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=0.7">
+      <title>Preston Town</title>
+      <meta name="description" content="A simple site of weather to Preston Town">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/small-8.css">
+      <link rel="stylesheet" href="css/large-8.css">     
+      <script src="js/hamburger.js"></script>
+  </head>
+<body onload="myFunction()">
+<header>
+    <img id="icon" src="images/iconweather.png" alt="icon weather">
+    <section class="logotype">
+    <h1 id="title">PSFWeather.com</h1>
+    <h6 id="motto">It's more than information about our weather</h6>
+    </section>
+</header>
+<div class="contain">    
+<div class="container">
+<nav>
+    <ul class="desk">
+        <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776;Menu</a></li>
+        <li><a href="#" title="Home">Home</a></li>
+        <li><a href="#preston" title="Preston">Preston</a></li>
+        <li><a href="#sodasprings" title="SodaSpring">Soda Springs</a></li>
+        <li><a href="#fishhaven" title="FishHaven">Fish Haven</a></li>
+        <li><a href="stormcenter.html" title="StormCenter">Storm Center</a></li>
+        <li><a href="gallery-7.html" title="Gallery">Gallery</a></li>        
+    </ul>
+</nav>
+</div>
+<main>
+    <h1>Preston Idaho</h1>
+    <section class="summary">
+        <picture>
+        <source media="(min-width: 700px)" srcset="images/cit230_image_1024x497.jpeg">
+        <img id="village" src="images/cit230_image_500x243.jpeg" alt="weather summary">
+        </picture>
+        <div class="weather" >
+            <h2>Weather Summary</h2>
+            <p>
+            Currently: Sunny<br>
+            High: <span id="temperature">76</span> ºF<br>
+            Wind Chill: <span id="WindChill">Calculating...</span> ºF<br>
+            Humidity: 69%<br>
+            Wind Speed: <span id="WindSpeed">5</span> mph
+            </p>
+        </div>
+    </section>
+    <section class="temp">
+        <h2>5 Days Forecast</h2>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Web</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+                <tr>
+                    <td><img class="sun" src="images/sun.png" alt="sun"></td>
+                    <td><img class="sun" src="images/sun.png" alt="sun"></td>
+                    <td><img class="sun" src="images/sun.png" alt="sun"></td>
+                    <td><img class="sun" src="images/sun.png" alt="sun"></td>
+                    <td><img class="sun" src="images/sun.png" alt="sun"></td>
+                </tr>
+                <tr>
+                    <td>89ºF</td>
+                    <td>87ºF</td>
+                    <td>78ºF</td>
+                    <td>75ºF</td>
+                    <td>72ºF</td>
+                </tr>        
+            </table>
+        </div>
+    </section> 
+    <section class="article">
+        <div class="left">
+            <img class="persons" src="images/two-persons-talking.jpg" alt="persons talking">
+        </div>
+            <div class="right words">
+            <h3>Sunset Day</h3>
+            <h6>by Berenice Vasquez</h6>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
+            </p>
+        </div>
+    </section>
+    <section class="secmap">
+        <div class="left">
+            <h3>PSFWeather.com</h3>
+            <p><img class="ismall" src="images/location.png" alt="location">30 N 1 st E<br>
+                Preston, ID 83263</p><br>
+            <p><img class="ismall" src="images/call.png" alt="calling"> 999.999.9999</p>
+            <p><img class="ismall" src="images/email.png" alt="email"> principal@psfweather.com</p>
+            <img class="logo" src="images/facebook.png" alt="facebook">
+            <img class="logo" src="images/pinterest.png" alt="pinterest">
+            <img class="logo" src="images/twiter.png" alt="twiter">
+            <img class="logo" src="images/whatsapp.png" alt="whatsapp">
+        </div>
+        <img class="map right" src="images/preston-idaho-map.png" alt="Preston Idaho Map">
+    </section>            
+</main>
+<footer>         
+    <p class="copyright" >&copy; 2019 PSFWeather.com | Jerald Vasquez Jimenez </p>
+    <p id="currentDate">Current Date</p>
+</footer>
+</div>
+<script src="js/currentdate.js"></script>
+<script src="js/windchill.js"></script>
+</body>
+</html>

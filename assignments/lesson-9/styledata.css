@@ -35,3 +35,11 @@ img{
   object-fit: cover;
   bottom: -5px;
 }
+@media screen and (max-width: 720px) {
+    section{
+        display: grid;
+        grid-template-columns: 355px;
+        grid-template-rows: 640px;
+        justify-content: center;
+        }
+    }

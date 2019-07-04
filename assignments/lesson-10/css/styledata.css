@@ -33,12 +33,13 @@
     width: 360px;
   height: 360px;
   object-fit: cover;
+  bottom: -5px;
 }
 @media screen and (max-width: 720px) {
     #novo{
         display: grid;
-        grid-template-columns: 355px;
-        grid-template-rows: 520px;
+        grid-template-columns: 414px;
+        grid-template-rows: 560px;
         justify-content: center;
         }
     }

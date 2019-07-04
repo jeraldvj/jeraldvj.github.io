@@ -6,8 +6,8 @@
     user-select: none;
     box-sizing: border-box;
 }
-#iconico{
-    width: 7px;
+#icon{
+    width: 7em;
     float: left;
 }
 .logotype{

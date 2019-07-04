@@ -1,4 +1,4 @@
-    var t = parseFloat(document.getElementById("tempe").value);
+    var t = parseFloat(document.getElementById("temp").value);
     var s = parseFloat(document.getElementById("windSpd").value);
     var ex = Math.pow(s,0.16);
     var w = 35.74+0.6215*t-35.75*ex +0.4275*t*ex;

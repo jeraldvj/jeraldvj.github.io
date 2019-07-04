@@ -1,0 +1,45 @@
+
+#p1d, #p2d, #p3d, #p4d {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    text-align: center;
+    margin-bottom:10px;
+    font-weight: bold;
+}
+#hd{
+    
+    color: red;
+    text-align: center;
+    margin-bottom:10px;
+}
+#novo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+#divi{
+    position: relative;
+    background-color: snow;
+    box-shadow: 4px 4px 4px black;
+}
+#arti{
+    position: relative;    
+    margin: 8px;
+    padding: 17px;
+    background-color: #cccccc;
+    border: 2px black solid;
+
+}
+#pi{
+    width: 340px;
+  height: 360px;
+  object-fit: cover;
+  bottom: -5px;
+}
+@media screen and (max-width: 720px) {
+    #novo{
+        display: grid;
+        grid-template-columns: 355px;
+        grid-template-rows: 520px;
+        justify-content: center;
+        }
+    }

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+}
+table{
+    position: relative;
+    border-collapse: collapse;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px #4F5C80;
+}
+th, td{
+    padding: 7px;
+    text-align: center;
+    border: 1px solid 	#C0C0C0;
+}
+tr:nth-child(2n+1) {
+    background-color: #e7f0ed;
+  }
+tr:nth-child(2n) {
+    background-color: #e7ffed;
+  }
+thead th{
+    background-color: #7fb9c2;
+    font-size: 1em;
+}
+tfoot td{
+    background-color: #7fb9c2;
+    font-size: 0.7em;
+}
+.different{
+    background-color: #628ca6;
+    color: white;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=0.68">
+      <title>Storm Center</title>
+      <meta name="description" content="A simple site of weather to Preston Town">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/small-9.css">
+      <link rel="stylesheet" href="css/medium-9.css">
+      <link rel="stylesheet" href="css/large-9.css">     
+      <script src="js/hamburger.js"></script>
+  </head>
+<body onload="myFunction()">
+<header>
+    <img id="icon" src="images/iconweather.png" alt="icon weather">
+    <section class="logotype">
+    <h1 id="title">PSFWeather.com</h1>
+    <h6 id="motto">It's more than information about our weather</h6>
+    </section>
+</header>
+<div class="contain">    
+    <div class="container">
+    <nav>
+        <ul class="desk">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="../lesson-9/preston-9.html" title="Preston">Preston</a></li>
+            <li><a href="#sodasprings" title="SodaSpring">Soda Springs</a></li>
+            <li><a href="#fishhaven" title="FishHaven">Fish Haven</a></li>
+            <li><a href="../lesson-9/stormcenter.html" title="StormCenter">Storm Center</a></li>
+            <li><a href="../lesson-9/gallery-9.html" title="Gallery">Gallery</a></li>        
+        </ul>
+    </nav>
+    </div>
+<main>
+    <h1>Storm Center</h1>
+    <section class="storm">
+    <div class="divided">
+    <form action="../lesson-9/thanks.html">
+        <label for="fullname"><b>Full Name:</b></label><input type="text" name="fullname" pattern="[A-Za-z].{4,}" required><br>
+        <label for="email"><b>E-mail:</b></label><input type="email" name="email" placeholder="user@email.org"><br>
+        <label for="p"><b>Phone:</b></label><input type="tel" name="phone" placeholder="###-###-####" required><br>
+        <label for="zip"><b>Zip Code:</b></label><input type="number" name="zip" required><br>    
+        <label for="date"><b>Storm Date:</b></label><input type="date" name="stormdate"><br>
+        <label for="stormtype"><b>Storm Type:</b></label>
+		<input name="stortype" list="Datalist">
+		<datalist id="Datalist">
+			<option value="Flash Flood">
+  	        <option value="Hail">
+            <option value="Hurricane">
+            <option value="Thunderstorm">
+            <option value="Tornado">
+        </datalist><br>
+    </div>
+    <div class="divided">
+        <label for="stormseverity"><b>Storm Severity (1 to 10):</b></label>
+		<input type="range" id="severity" value="1" min="1" max="10" step="1" oninput="SSvalue(this.value)" onchange="SSvalue(this.value)">
+        <span id="ssvalue">1</span><br>
+        <label for="stormregion"><b>Storm Region:</b></label>
+        <select id="selected">
+            <option disabled="selectregion" selected>Select Region ...</option>
+            <option value="preston">Preston</option>
+            <option value="sugarcity">Sugar City</option>
+            <option value="fishhaven">Fish Haven</option>
+        </select>
+        <fieldset>
+            <legend>User In-danger Level <em>(Choose one)</em></legend>
+            <div>
+                <input type="radio" id="option1" name="option" value="Yes" checked>
+                <label for="option1">Yes</label>
+            </div>
+            <div>
+                <input type="radio" id="option2" name="option" value="Maybe">
+                <label for="option2">Maybe</label>
+            </div>
+            <div>
+                <input type="radio" id="option3" name="option" value="No">
+                <label for="option3">No</label>
+            </div>
+        </fieldset>
+        <textarea rows="7" cols="50" placeholder="Additional information or comments."></textarea><br>    
+        <input type="submit" value="Submit">
+    </div>
+    <div class="divided">
+        <img class="istorm cont" src="images/storm.jpg" alt="storm">
+    </div>
+    </form>
+    </section>
+</main>
+<footer>         
+    <p class="copyright" >&copy; 2019 PSFWeather.com | Jerald Vasquez Jimenez </p>
+    <p id="currentDate">Current Date</p>
+</footer>
+</div>
+<script src="js/currentdate.js"></script>
+</body>
+</html>

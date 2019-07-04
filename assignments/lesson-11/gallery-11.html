@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=0.68">
+      <title>Gallery</title>
+      <meta name="description" content="A simple site of weather to Preston Town">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/small-11.css">
+      <link rel="stylesheet" href="css/medium-11.css">
+      <link rel="stylesheet" href="css/large-11.css">     
+      <script src="js/hamburger.js"></script>
+  </head>
+<body onload="myFunction()">
+<header>
+    <img id="icon" src="images/iconweather.png" alt="icon weather">
+    <section class="logotype">
+    <h1 id="title">PSFWeather.com</h1>
+    <h6 id="motto">It's more than information about our weather</h6>
+    </section>
+</header>
+<div class="contain">    
+    <div class="container">
+    <nav>
+        <ul class="desk">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="../lesson-11/preston-11.html" title="Preston">Preston</a></li>
+            <li><a href="fish-haven.html" title="SodaSpring">Soda Springs</a></li>
+            <li><a href="fish-haven.html" title="FishHaven">Fish Haven</a></li>
+            <li><a href="../lesson-11/stormcenter.html" title="StormCenter">Storm Center</a></li>
+            <li><a href="../lesson-11/gallery-11.html" title="Gallery">Gallery</a></li>        
+        </ul>
+    </nav>
+    </div>
+<main>
+    <h1>Weather Gallery</h1>
+    <section class="gallery">
+        <div class="cont">
+            <img class="images" src="images/lightning-solar-activity.jpg" alt="lightning solar activity">
+            <p>Lightning and Sun Over Greenville</p>
+        </div>
+        <div class="cont">
+            <img class="images" src="images/cold-front-over.jpg" alt="cold front over">
+            <p>Cold front over Springfield</p>
+        </div>
+        <div class="cont">
+            <img class="images" src="images/double-rainbow.jpg" alt="doble rainbow">
+            <p>Doble Rainbow</p>
+        </div>
+        <div class="cont">
+            <img class="images" src="images/tornado.jpg" alt="tornado">
+            <p>Tornado forming over North Clark County</p>
+        </div>
+        <div class="cont">
+            <img class="images" src="images/lightning-multiples.jpg" alt="lightning strikes">
+            <p>Lightning strikes in Greenville</p>
+        </div>
+        <div class="cont">
+            <img class="images" src="images/snow_packed_trees.jpg" alt="snow packed trees">
+            <p>Trees coverd in fresh snow</p>
+        </div>
+    </section>
+</main>
+<footer>         
+    <p class="copyright" >&copy; 2019 PSFWeather.com | Jerald Vasquez Jimenez </p>
+    <p id="currentDate">Current Date</p>
+</footer>
+</div>
+<script src="js/currentdate.js"></script>
+</body>
+</html>

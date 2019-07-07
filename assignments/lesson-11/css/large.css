@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto&display=swap');
- 
-header {
+header a{
+  text-decoration: none;
+  color: black;
+} 
+header {  
   position: relative;
   display: block;
   width: 40%;
@@ -9,7 +12,7 @@ header {
   margin-right: auto;
   height: 120px;
   background-color: #BED8E6;
-  z-index: 20;
+  z-index: 20;  
 }
 
 .contain{

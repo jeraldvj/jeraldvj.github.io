@@ -41,9 +41,12 @@ weatherRequest.onload = function() {
     let weatherData = JSON.parse(weatherRequest.responseText);
     console.log(weatherData);
 
+    var t = Math.round(weatherData.main.temp);
+    var s = Math.round(weatherData.wind.speed*10)/10;
+
     document.getElementById('curr').innerHTML = weatherData.weather[0].description;
-    document.getElementById('temp').innerHTML = Math.round(weatherData.main.temp);
+    document.getElementById('temp').innerHTML = t;
     document.getElementById('hum').innerHTML = weatherData.main.humidity;
-    document.getElementById('windSpd').innerHTML = Math.round(weatherData.wind.speed*10)/10;
-    
+    document.getElementById('windSpd').innerHTML = s;
+    document.getElementById('windCh').innerHTML = myFunction(t,s);
 }

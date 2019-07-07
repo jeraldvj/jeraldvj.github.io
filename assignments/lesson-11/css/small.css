@@ -136,4 +136,6 @@ footer a{
     text-decoration:none;
     color: #FFFFFF;
 }
-  
+.weather h2{
+    margin-bottom: 10px;
+}

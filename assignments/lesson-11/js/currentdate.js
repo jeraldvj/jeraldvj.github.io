@@ -1,4 +1,3 @@
-function myFunction() {
     var d = new Date();
     var weekday = new Array(7);
     weekday[0] = "Sunday";
@@ -16,7 +15,7 @@ function myFunction() {
     var m = month[d.getMonth()];
     var y = d.getFullYear();
     document.getElementById("currentDate").innerHTML = n +", "+ w + " "+ m +" "+ y;
-}
+
 function SSvalue(severity) {
     document.getElementById("ssvalue").innerHTML = severity;
 }

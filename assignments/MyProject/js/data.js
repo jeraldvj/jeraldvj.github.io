@@ -14,9 +14,9 @@
     
 
     function showTemple(jsonObj) {
-      var temples = jsonObj['temple'];     
-         
-      for (var i = 0; i < temples.length; i++) {
+      var temple = jsonObj['temples'];     
+
+      for (var i = 0; i < temple.length; i++) {
         var myArticle = document.createElement('article');
         var myDiv = document.createElement('div');
         var myImg = document.createElement('img');
@@ -25,9 +25,9 @@
         var myPara2 = document.createElement('p');
         var mybut = document.createElement('button');
 
-        myH2.textContent = temple[i].name;
-        myPara1.textContent = temple[i].address;
-        myPara2.textContent = 'Telephone: ' + temple[i].telephone;
+        myH2.textContent = temples[i].name;
+        myPara1.textContent = temples[i].address;
+        myPara2.textContent = 'Telephone: ' + temples[i].telephone;
 
         var attr = document.createAttribute("src");
         attr.value = "images/img" + i + ".jpg";

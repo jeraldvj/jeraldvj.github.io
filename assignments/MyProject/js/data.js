@@ -1,6 +1,6 @@
     var header = document.querySelector('header');
     var section = document.querySelector('section');
-    var requestURL = 'https://jeraldvj.github.io/assignments/myproject/temple.json';
+    var requestURL = 'https://jeraldvj.github.io/assignments/MyProject/temple.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
 

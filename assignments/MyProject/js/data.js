@@ -14,14 +14,15 @@
     
 
     function showTemple(jsonObj) {
-      var town = jsonObj['towns'];        
-      for (var i = 0; i < town.length; i++) {
+      var temples = jsonObj['temple'];     
+         
+      for (var i = 0; i < temples.length; i++) {
         var myArticle = document.createElement('article');
         var myDiv = document.createElement('div');
+        var myImg = document.createElement('img');
         var myH2 = document.createElement('h2');
         var myPara1 = document.createElement('p');
         var myPara2 = document.createElement('p');
-        var myImg = document.createElement('img');
         var mybut = document.createElement('button');
 
         myH2.textContent = temple[i].name;
@@ -33,12 +34,12 @@
         var h = document.getElementsByTagName("img")[0];
         myImg.setAttributeNode(attr);
 
-        
+
+        myDiv.appendChild(myImg).setAttribute('id' , "pi");
         myDiv.appendChild(myH2).setAttribute('id' , "hd");
         myDiv.appendChild(myPara1).setAttribute('id' , "p1d");
         myDiv.appendChild(myPara2).setAttribute('id' , "p2d");
         myDiv.appendChild(mybut).setAttribute('id' , "but") + "Reserve Here!";
-        myDiv.appendChild(myImg).setAttribute('id' , "pi");
         myArticle.appendChild(myDiv).setAttribute('id' , "divi");
 
         section.appendChild(myArticle).setAttribute('id' , "arti");

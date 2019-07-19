@@ -7,9 +7,7 @@
     request.responseType = 'json';
     request.send();
 
-    request.onload = function() {
-      let mdata = JSON.parse(request.responseText);
-      console.log(mdata);
+    request.onload = function() {      
 
       var templeInn = request.response;
       showTemple(templeInn);

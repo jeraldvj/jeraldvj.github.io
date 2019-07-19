@@ -8,6 +8,9 @@
     request.send();
 
     request.onload = function() {
+      let mdata = JSON.parse(request.responseText);
+      console.log(mdata);
+
       var templeInn = request.response;
       showTemple(templeInn);
     }

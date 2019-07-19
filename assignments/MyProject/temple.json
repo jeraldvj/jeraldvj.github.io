@@ -4,43 +4,422 @@
       "name": "Cochabamba, Bolivia",
       "address": "Av Melchor Urquidi 1500 Casilla de Correo 1599 Alto Queru Queru, Cochabamba, Bolivia",
       "telephone": "(591) 4-429-3161",
+      "email": "cocha-hos@ldschurch.org",
+      "services" : [
+        "Clothing rental available",
+        "Cafeteria available",
+        "Patron housing available",
+        "Distribution center nearby"
+      ],
+      "history" : [
+        "The Cochabamba Bolivia Temple is the 82nd operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church).",
+        "Bolivia's first convert to the LDS Church was baptized in December 1964, a month after missionaries first arrived. Forty-four years later there were over 158,000 members across the country.",
+        "In 1995, the church announced that a temple would be built in the Bolivian city of Cochabamba. The next year, church president Gordon B. Hinckley presided over the groundbreaking. He addressed the 4,000 people gathered during one of the heaviest rainstorms the area had seen in ten years. He addressed the gathering, 'My beloved and wet brothers and sisters'.",
+        "Before the temple was dedicated it was open for one week to allow the public to tour the temple. Originally the temple open house had been scheduled for two weeks, but because of civil unrest in the city of Cochabamba, due to an ill-fated attempt to privatize the municipal water supply (Cochabamba protests of 2000), the first week was cancelled. LDS Church leaders were pleased when nearly 65,000 people toured the temple, coming close to the goal of 75,000. Because of the open house, over 2,200 people requested to be visited by the Mormon missionaries.",
+        "Hinckley dedicated the Cochabamba Bolivia Temple in four sessions on April 30, 2000. In the dedicatory prayer, Hinckley recognized the founder of Bolivia, Simón Bolívar, who died the year the church was organized.",
+        "The Cochabama Bolivia Temple is of classic modern design reflecting the Bolivian culture. The exterior is finished with a blend of hand-hewn granite and plaster. A statue of the angel Moroni tops the single tower. It has a total of 33,302 square feet (3,093.9 m<sup>2</sup>), two ordinance rooms, and three sealing rooms."
+      ],
       "milestone" : [
         "13 January 1995: Announced",
         "10 November 1996: Groundbreaking",
         "30 April 2000: Dedicated"
-      ]
+      ],
+      "ordinances" : [{
+        "baptism": [{
+          "tuesday": [
+            "9:30 AM - 12:30 PMWalk-ins and Appointments",
+            "4:30 PM - 6:30 PMWalk-ins and Appointments",
+            "6:30 PM - 7:30 PMFamily Priority Time - Walk-ins and Appointments",
+            "7:30 PM - 9:00 PMWalk-ins and Appointments"
+          ],
+          "saturday": [
+            "9:30 AM - 12:30 PMWalk-ins and Appointments",
+            "1:30 PM - 6:00 PMWalk-ins and Appointments"
+          ]
+          }],
+        "initiatory":[{
+          "tuesday": [
+            "9:30 AM - 1:00 PMWalk-ins and Appointments",
+            "4:30 PM - 9:00 PMWalk-ins and Appointments"
+          ],
+          "saturday": [
+            "9:30 AM - 1:00 PMWalk-ins and Appointments",
+            "1:30 PM - 6:00 PMWalk-ins and Appointments"
+          ]
+        }],
+        "endowment":[{
+          "tuesday": [
+            "9:30 AMWalk-ins and Appointments",
+            "10:30 AMWalk-ins and Appointments",
+            "11:30 AMWalk-ins and Appointments",
+            "5:30 PMWalk-ins and Appointments",
+            "6:30 PMWalk-ins and Appointments",
+            "7:30 PMWalk-ins and Appointments"
+          ],
+          "saturday": [
+            "9:30 AMWalk-ins and Appointments",
+            "10:30 AMWalk-ins and Appointments",
+            "11:30 AMWalk-ins and Appointments",
+            "2:30 PMWalk-ins and Appointments",
+            "3:30 PMWalk-ins and Appointments",
+            "4:30 PMWalk-ins and Appointments"
+          ]
+        }],
+        "sealing":[{
+          "tuesday": [
+            "9:30 AM - 10:00 AMWalk-ins and Appointments",
+            "10:35 AM - 11:00 AMWalk-ins and Appointments",
+            "11:05 AM - 11:30 AMWalk-ins and Appointments",
+            "11:35 AM - 12:00 PMWalk-ins and Appointments",
+            "12:05 PM - 12:30 PMWalk-ins and Appointments",
+            "12:35 PM - 1:00 PMWalk-ins and Appointments",
+            "6:05 PM - 6:30 PMWalk-ins and Appointments",
+            "6:35 PM - 7:00 PMWalk-ins and Appointments"
+          ],
+          "saturday": [
+            "9:30 AM - 10:00 AMWalk-ins and Appointments",
+            "10:35 AM - 11:00 AMWalk-ins and Appointments",
+            "11:05 AM - 11:30 AMWalk-ins and Appointments",
+            "11:35 AM - 12:00 PMWalk-ins and Appointments",
+            "12:05 PM - 12:30 PMWalk-ins and Appointments",
+            "12:35 PM - 1:00 PMWalk-ins and Appointments",
+            "2:00 PM - 2:30 PMWalk-ins and Appointments",
+            "2:35 PM - 3:00 PMWalk-ins and Appointments",
+            "3:05 PM - 3:30 PMWalk-ins and Appointments",
+            "3:35 PM - 4:00 PMWalk-ins and Appointments",
+            "4:05 PM - 4:30 PMWalk-ins and Appointments",
+            "4:35 PM - 5:00 PMWalk-ins and Appointments"
+          ]
+        }]        
+      }], 
+      "closure": [{
+        "2019": [
+          "Tuesday, 6 August 2019",
+          "Saturday, 5 October 2019",
+          "Monday, 7 October 2019 - Monday, 21 October 2019",
+          "Tuesday, 24 December 2019",
+          "Wednesday, 25 December 2019"
+        ],
+        "2020": [
+          "Wednesday, 1 January 2020",
+          "Tuesday, 25 February 2020",
+          "Monday, 6 April 2020 - Monday, 20 April 2020",
+          "Thursday, 6 August 2020",
+          "Saturday, 3 October 2020",
+          "Monday, 5 October 2020 - Monday, 19 October 2020",
+          "Thursday, 24 December 2020 - Friday, 25 December 2020"
+        ]
+        }]
     },
     {
       "name": "Lima, Perú",
       "address": "Av. Javier Prado Este 6420 Urb. Santa Patricia La Molina, Lima 12, Peru",
       "telephone": "(51) 1-612-7200",
+      "email": "lima-hos@ldschurch.org",
+      "services" : [
+        "Clothing rental available",
+        "Cafeteria available",
+        "Patron housing available",
+        "Distribution center nearby"
+      ],
+      "history" : [
+        "The Lima Peru Temple is the 38th operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church).",
+        "Due to growth in Peru, church leaders announced in 1981 that a temple would be built in the city of Lima. The six-spired Lima Peru Temple was constructed on 5 acres (20,000 m2) of undeveloped area. Gordon B. Hinckley, then a counselor in the church's First Presidency, dedicated the Lima Peru temple on January 10, 1986.",
+        "The Lima Peru Temple serves more than four hundred thousand Latter-day Saints in the country. The temple has a total of 9,600 square feet (890 m2), four ordinance rooms, and three sealing rooms. ",
+        "On April 3, 2016, church president Thomas S. Monson announced the intent to construct a second temple in the city.",
+        "This temple will be called the Lima Peru Los Olivos Temple. Upon completion of this second temple, Lima will be the third city (and first outside of Utah) to have more than one temple, following the Utah cities of South Jordan and Provo."
+      ],
       "milestone" : [
-          "1 April 1981: Announced",
-          "11 September 1982: Groundbreaking",
-          "10 January 1986: Dedicated"
-      ]
+        "1 April 1981: Announced",
+        "11 September 1982: Groundbreaking",
+        "10 January 1986: Dedicated"
+      ],
+      "ordinances" : [{
+        "baptism": [{
+          "tuesday": [
+            "7:30 AM - 9:00 AMChurch Groups - Appointments Only",
+            "9:00 AM - 9:00 PMChurch Groups - Appointments Only"
+          ],
+          "saturday": [
+            "6:00 AM - 7:30 AMAppointments Only",
+            "7:30 AM - 3:00 PMChurch Groups - Appointments Only",
+            "3:00 PM - 9:00 PMFamily Priority Time - Appointments Only"
+          ]
+          }],
+        "initiatory":[{
+          "tuesday": [
+            "7:30 AM - 7:30 PMWalk-ins and Appointments"
+          ],
+          "saturday": [
+            "7:30 AM - 7:30 PMWalk-ins and Appointments"
+          ]
+        }],
+        "endowment":[{
+          "tuesday": [
+            "6:45 AMWalk-ins and Appointments - Spanish",
+            "7:30 AMWalk-ins and Appointments",
+            "8:00 AMWalk-ins and Appointments",
+            "8:30 AMWalk-ins and Appointments",
+            "9:00 AMWalk-ins and Appointments",
+            "9:30 AMWalk-ins and Appointments",
+            "10:00 AMWalk-ins and Appointments",
+            "10:30 AMWalk-ins and Appointments",
+            "11:00 AMWalk-ins and Appointments",
+            "11:30 AMWalk-ins and Appointments",
+            "12:00 PMWalk-ins and Appointments",
+            "1:00 PMWalk-ins and Appointments",
+            "2:00 PMWalk-ins and Appointments",
+            "3:00 PMWalk-ins and Appointments",
+            "4:00 PMWalk-ins and Appointments",
+            "4:30 PMWalk-ins and Appointments",
+            "5:00 PMWalk-ins and Appointments",
+            "5:30 PMWalk-ins and Appointments",
+            "6:00 PMWalk-ins and Appointments",
+            "6:30 PMWalk-ins and Appointments"
+          ],
+          "saturday": [
+            "6:45 AMWalk-ins and Appointments - Spanish",
+            "7:30 AMWalk-ins and Appointments",
+            "8:00 AMWalk-ins and Appointments",
+            "8:30 AMWalk-ins and Appointments",
+            "9:00 AMWalk-ins and Appointments",
+            "9:30 AMWalk-ins and Appointments",
+            "10:00 AMWalk-ins and Appointments",
+            "10:30 AMWalk-ins and Appointments",
+            "11:00 AMWalk-ins and Appointments",
+            "11:30 AMWalk-ins and Appointments",
+            "12:00 PMWalk-ins and Appointments",
+            "12:30 PMWalk-ins and Appointments",
+            "1:00 PMWalk-ins and Appointments",
+            "1:30 PMWalk-ins and Appointments",
+            "2:00 PMWalk-ins and Appointments",
+            "2:30 PMWalk-ins and Appointments",
+            "3:00 PMWalk-ins and Appointments",
+            "3:30 PMWalk-ins and Appointments",
+            "4:00 PMWalk-ins and Appointments",
+            "4:30 PMWalk-ins and Appointments",
+            "5:00 PMWalk-ins and Appointments",
+            "5:30 PMWalk-ins and Appointments",
+            "6:00 PMWalk-ins and Appointments",
+            "6:30 PMWalk-ins and Appointments"
+          ]
+        }],
+        "sealing":[{
+          "tuesday": [
+            "9:00 AM - 8:30 PMWalk-ins and Appointments"
+          ],
+          "saturday": [
+            "9:00 AM - 8:30 PMWalk-ins and Appointments"
+          ]
+        }]        
+      }], 
+      "closure": [{
+        "2019": [
+          "Saturday, 27 July 2019 (Limited Hours)",
+          "Monday, 14 October 2019 - Monday, 28 October 2019",
+          "Tuesday, 24 December 2019 - Wednesday, 25 December 2019 (Limited Hours)",
+          "Tuesday, 31 December 2019 (Limited Hours)"
+        ]
+        }]
     },
     {
       "name": "Santiago, Chile",
       "address": "Pocuro #1940 Providencia 6641404 Santiago Region Metropolitana (Santiago), Chile",
       "telephone": "(56) 22-340-5070",      
+      "email": "santi-hos@ldschurch.org",
+      "services" : [
+        "No Clothing rental available",
+        "No Cafeteria available",
+        "Patron housing available",
+        "Distribution center nearby"
+      ],
+      "history" : [
+        "The Santiago Chile Temple is the 26th constructed and 24th operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church). Located in the Chilean capital, Santiago, it was built with a modern single-spire design.",
+        "The LDS temple in Santiago was announced on April 2, 1980, and dedicated on September 15, 1983 by Gordon B. Hinckley. The temple was built on an 2.6-acre (11,000 m2) plot, has 2 ordinance rooms and 3 sealing rooms, and has a total floor area of 20,831 square feet (1,935.3 m2). The spire is 76 feet (23 m) tall. The Apia Samoa, Nuku'alofa Tonga, and Sydney Australia temples all have the same design. The temple underwent remodeling and was then rededicated by Hinckley on March 12, 2006.",
+        "The Santiago Chile Temple was the first LDS temple to be built on Spanish-speaking soil and the second to be built in South America.",
+        "Since its initial construction, there have been additions to the temple property including housing for patrons who come from the far reaches of Chile to stay in while they attend the temple."
+      ],
       "milestone" : [
         "2 April 1980: Announced",
         "30 May 1981: Groundbreaking",
         "15 September 1983: Dedicated",
         "12 March 2006: Rededicated"
-      ]
+      ],
+      "ordinances" : [{
+        "baptism": [{
+          "tuesday": [
+            "8:30 AM - 1:30 PMChurch Groups - Appointments Only",
+            "4:30 PM - 5:30 PMChurch Groups - Appointments Only",
+            "6:00 PM - 7:30 PMWalk-ins and Appointments",
+            "8:00 PM - 9:30 PMChurch Groups - Appointments Only"
+          ],
+          "saturday": [
+            "6:30 AM - 10:00 AMChurch Groups - Appointments Only",
+            "10:00 AM - 12:00 PMFamily Priority Time - Appointments Only",
+            "12:00 PM - 2:00 PMChurch Groups - Appointments Only",
+            "2:00 PM - 5:30 PMFamily Priority Time - Appointments Only",
+            "5:30 PM - 7:00 PMWalk-ins and Appointments"
+          ]
+          }],
+        "initiatory":[{
+          "tuesday": [
+            "8:30 AM - 2:00 PMWalk-ins and Appointments",
+            "4:30 PM - 9:30 PMWalk-ins and Appointments"
+          ],
+          "saturday": [
+            "For initiatory information and schedule, please call the temple."
+          ]
+        }],
+        "endowment":[{
+          "tuesday": [
+            "9:00 AMWalk-ins and Appointments",
+            "10:00 AMWalk-ins and Appointments",
+            "11:30 AMWalk-ins and Appointments",
+            "12:30 PMWalk-ins and Appointments",
+            "4:30 PMWalk-ins and Appointments",
+            "5:30 PMWalk-ins and Appointments",
+            "7:00 PMWalk-ins and Appointments",
+            "8:00 PMWalk-ins and Appointments"
+          ],
+          "saturday": [
+            "6:30 AMWalk-ins and Appointments",
+            "8:00 AMWalk-ins and Appointments",
+            "9:15 AMWalk-ins and Appointments",
+            "10:45 AMWalk-ins and Appointments",
+            "12:00 PMWalk-ins and Appointments",
+            "1:30 PMWalk-ins and Appointments",
+            "2:45 PMWalk-ins and Appointments",
+            "4:15 PMWalk-ins and Appointments",
+            "5:30 PMWalk-ins and Appointments"
+          ]
+        }],
+        "sealing":[{
+          "tuesday": [
+            "9:00 AM - 2:00 PMWalk-ins and Appointments",
+            "4:30 PM - 9:30 PMWalk-ins and Appointments"
+          ],
+          "saturday": [
+            "7:00 AM - 7:00 PMWalk-ins and Appointments"
+          ]
+        }]        
+      }], 
+      "closure": [{
+        "2019": [
+          "Thursday, 15 August 2019 (Limited Hours)",
+          "Monday, 26 August 2019 - Monday, 9 September 2019",
+          "Wednesday, 18 September 2019 - Thursday, 19 September 2019",
+          "Friday, 20 September 2019",
+          "Saturday, 5 October 2019",
+          "Thursday, 31 October 2019 (Limited Hours)",
+          "Thursday, 31 October 2019 - Friday, 1 November 2019",
+          "Friday, 1 November 2019 (Limited Hours)",
+          "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+          "Tuesday, 31 December 2019"
+        ],
+        "2020": [
+          "Wednesday, 1 January 2020",
+          "Monday, 3 February 2020 - Monday, 17 February 2020",
+          "Friday, 1 May 2020",
+          "Thursday, 21 May 2020",
+          "Monday, 31 August 2020 - Monday, 14 September 2020",
+          "Friday, 18 September 2020 - Saturday, 19 September 2020",
+          "Thursday, 24 December 2020 - Friday, 25 December 2020",
+          "Thursday, 31 December 2020"
+        ]
+        }]      
     },
     {
       "name": "São Paulo, Brazil",
       "address": "Av. Prof. Francisco Morato, 2390 Caxingui 05512-300 São Paulo - SP, Brazil",
-      "telephone": "(55) 11-3723-7600",      
+      "telephone": "(55) 11-3723-7600",  
+      "email": "spaulo-hos@ldschurch.org",
+      "services" : [
+        "Clothing rental available",
+        "Cafeteria available",
+        "No Patron housing available",
+        "Distribution center nearby"
+      ],
+      "history" : [
+        "The São Paulo Brazil Temple (formerly the São Paulo Temple) is the 19th constructed and 17th operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church). Located in the Brazilian city of São Paulo, it was the first LDS temple built in South America, and also the first temple to use the single story, single spire design. The spire is 101 feet (31 m) tall.",
+        "The intention to construct a temple in São Paulo was announced by the LDS Church on March 1, 1975, with construction beginning twelve months later. Hundreds of local church members gathered to clear the site, which included removing brush, weeds, and banana trees. Hundreds more members donated their time to produce fifty thousand blocks of cast stone composed of quartz, marble chips, and white concrete for the exterior of the temple. It was dedicated on October 30, 1978, by church president Spencer W. Kimball. The temple has two ordinance rooms and four sealing rooms, and has a total floor area of 59,246 square feet (5,504 m²).",
+        "On August 20, 2003, a gold-leafed statue of the angel Moroni was added to the temple during an extensive renovation and enlargement project 25 years after its dedication. Church president Gordon B. Hinckley rededicated the São Paulo Brazil Temple on February 22, 2004."
+      ],
       "milestone" : [
         "1 March 1975: Announced",
         "20 March 1976: Groundbreaking",
         "30 October 1978: Dedicated",
         "22 February 2004: Rededicated"
-      ]
+      ],
+      "ordinances" : [{
+        "baptism": [{
+          "tuesday": [
+            "9:00 AM - 6:00 PMWalk-ins and Appointments",
+            "6:00 PM - 10:00 PMChurch Groups - Appointments Only"
+          ],
+          "saturday": [
+            "7:00 AM - 2:00 PMChurch Groups - Appointments Only",
+            "2:00 PM - 5:00 PMFamily Priority Time - Walk-ins and Appointments"
+          ]
+          }],
+        "initiatory":[{
+          "tuesday": [
+            "9:00 AM - 9:00 PMWalk-ins and Appointments"
+          ],
+          "saturday": [
+            "7:00 AM - 4:30 PMWalk-ins and Appointments"
+          ]
+        }],
+        "endowment":[{
+          "tuesday": [
+            "8:30 AMWalk-ins and Appointments",
+            "9:30 AMWalk-ins and Appointments",
+            "10:30 AMWalk-ins and Appointments",
+            "11:45 AMWalk-ins and Appointments",
+            "2:00 PMWalk-ins and Appointments",
+            "3:15 PMWalk-ins and Appointments",
+            "5:15 PMWalk-ins and Appointments",
+            "6:30 PMWalk-ins and Appointments",
+            "7:30 PMWalk-ins and Appointments",
+            "8:30 PMWalk-ins and Appointments"
+          ],
+          "saturday": [
+            "7:00 AMWalk-ins and Appointments",
+            "8:00 AMWalk-ins and Appointments",
+            "9:00 AMWalk-ins and Appointments",
+            "10:00 AMWalk-ins and Appointments",
+            "11:15 AMWalk-ins and Appointments",
+            "12:30 PMWalk-ins and Appointments",
+            "1:30 PMWalk-ins and Appointments",
+            "2:45 PMWalk-ins and Appointments",
+            "3:30 PMWalk-ins and Appointments"
+          ]
+        }],
+        "sealing":[{
+          "tuesday": [
+            "8:30 AM - 7:30 PMWalk-ins and Appointments"
+          ],
+          "saturday": [
+            "7:00 AM - 4:30 PMWalk-ins and Appointments"
+          ]
+        }]        
+      }], 
+      "closure": [{
+        "2019": [
+          "Monday, 12 August 2019 - Monday, 26 August 2019",
+          "Saturday, 7 September 2019",
+          "Saturday, 5 October 2019",
+          "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+          "Tuesday, 31 December 2019 - Wednesday, 1 January 2020"
+        ],
+        "2020": [
+          "Monday, 9 March 2020 - Monday, 23 March 2020",
+          "Saturday, 4 April 2020",
+          "Monday, 10 August 2020 - Monday, 24 August 2020",
+          "Saturday, 3 October 2020",
+          "Thursday, 24 December 2020 - Saturday, 26 December 2020",
+          "Thursday, 31 December 2020 - Saturday, 2 January 2021"
+        ]
+        }]          
     }    
    ]
   }

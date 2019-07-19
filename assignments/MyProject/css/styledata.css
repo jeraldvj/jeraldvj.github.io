@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Cinzel|EB+Garamond&display=swap');
+#p1d, #p2d, #p3d, #p4d {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    margin-bottom:10px;
+    font-weight: bold;
+}
+#hd{    
+    color: red;
+    text-align: center;
+    margin-bottom:10px;
+}
+#novo{
+    display: grid;
+    grid-template-columns: 614px 614px;
+    position: relative;
+    justify-content: center;
+}
+#divi{
+    display: flex;
+    background-color: snow;
+    box-shadow: 4px 4px 4px black;
+}
+#arti{
+    position: relative;    
+    margin: 8px;
+    padding: 17px;
+    background-color: rgb(252, 189, 189);
+
+}
+.boxleft {
+    display: block; 
+}
+.boxright {
+    display: block; 
+}
+#pi{
+    width: 300px;
+  height: 360px;
+  object-fit: cover;
+  bottom: -5px;
+}
+#but{
+    width: 260px;
+    height: 140px;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    background-color: #F5B681;
+}
+@media screen and (max-width: 720px) {
+    #novo{
+        display: grid;
+        grid-template-columns: 414px;
+        grid-template-rows: 560px;
+        justify-content: center;
+        }
+    }

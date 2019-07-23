@@ -93,14 +93,14 @@
         }]        
       }], 
       "closure": [{
-        "2019": [
+        "y2019": [
           "Tuesday, 6 August 2019",
           "Saturday, 5 October 2019",
           "Monday, 7 October 2019 - Monday, 21 October 2019",
           "Tuesday, 24 December 2019",
           "Wednesday, 25 December 2019"
         ],
-        "2020": [
+        "y2020": [
           "Wednesday, 1 January 2020",
           "Tuesday, 25 February 2020",
           "Monday, 6 April 2020 - Monday, 20 April 2020",
@@ -214,7 +214,7 @@
         }]        
       }], 
       "closure": [{
-        "2019": [
+        "y2019": [
           "Saturday, 27 July 2019 (Limited Hours)",
           "Monday, 14 October 2019 - Monday, 28 October 2019",
           "Tuesday, 24 December 2019 - Wednesday, 25 December 2019 (Limited Hours)",
@@ -304,7 +304,7 @@
         }]        
       }], 
       "closure": [{
-        "2019": [
+        "y2019": [
           "Thursday, 15 August 2019 (Limited Hours)",
           "Monday, 26 August 2019 - Monday, 9 September 2019",
           "Wednesday, 18 September 2019 - Thursday, 19 September 2019",
@@ -316,7 +316,7 @@
           "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
           "Tuesday, 31 December 2019"
         ],
-        "2020": [
+        "y2020": [
           "Wednesday, 1 January 2020",
           "Monday, 3 February 2020 - Monday, 17 February 2020",
           "Friday, 1 May 2020",
@@ -404,14 +404,14 @@
         }]        
       }], 
       "closure": [{
-        "2019": [
+        "y2019": [
           "Monday, 12 August 2019 - Monday, 26 August 2019",
           "Saturday, 7 September 2019",
           "Saturday, 5 October 2019",
           "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
           "Tuesday, 31 December 2019 - Wednesday, 1 January 2020"
         ],
-        "2020": [
+        "y2020": [
           "Monday, 9 March 2020 - Monday, 23 March 2020",
           "Saturday, 4 April 2020",
           "Monday, 10 August 2020 - Monday, 24 August 2020",

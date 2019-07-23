@@ -85,12 +85,17 @@ nav {
 #supe{
   display: flex;
 }
+#divi{
+  position: relative;
+
+}
 #ima{
-  width: 600px;
+  position: absolute;
+  right: 30px;
+  width: 500px;
   margin: 15px;
 }
 .left {
-  width: 60%;
   margin: 15px;
 }
 .titulo{

@@ -50,7 +50,6 @@ function showTemple(jsonObj) {
     var myH2 = document.createElement('h2');
     var myH3 = document.createElement('h3');
 //    var myPara0 = document.createElement('p');
-    var myPara1 = document.createElement('p');
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
 //    var mySpanT0 = document.createElement('span');
@@ -71,8 +70,16 @@ function showTemple(jsonObj) {
     myDivC1.appendChild(myH2);
 //    mySpanT0.textContent = 'Temperature';
 //    myPara0.textContent = 'current';
-    mySpanT1.textContent = 'Address';
-    myPara1.textContent = temple[cn].address;
+
+    for (var i = 0; i < temple[cn].address.length; i++) {
+        if (i == 0) {
+            mySpanT1.textContent = 'Address';
+            myDiv1.appendChild(mySpanT1).setAttribute('class' , "titulo");     
+        }
+        var myLi0 = document.createElement('li'); 
+        myLi0.textContent = temple[cn].address[i];
+        myDiv1.appendChild(myLi0);
+    }
     mySpanT2.textContent = 'Telephone';
     myPara2.textContent = temple[cn].telephone;
     mySpanT3.textContent = 'E-mail';
@@ -232,8 +239,8 @@ function showTemple(jsonObj) {
 
  //   myDiv1.appendChild(mySpanT0);
  //   myDiv1.appendChild(myPara0).setAttribute('id' , "temp");
-    myDiv1.appendChild(mySpanT1).setAttribute('class' , "titulo");
-    myDiv1.appendChild(myPara1);
+    
+
     myDiv2.appendChild(mySpanT2).setAttribute('class' , "titulo");
     myDiv2.appendChild(myPara2);
     myDiv3.appendChild(mySpanT3).setAttribute('class' , "titulo");

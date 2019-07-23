@@ -2,7 +2,11 @@
     "temples" : [
     {
       "name": "Cochabamba, Bolivia",
-      "address": "Av Melchor Urquidi 1500 <br> Casilla de Correo 1599 <br> Alto Queru Queru, Cochabamba, Bolivia",
+      "address": [
+        "Av Melchor Urquidi 1500",
+        "Casilla de Correo 1599",
+        "Alto Queru Queru, Cochabamba, Bolivia"
+      ],
       "telephone": "(591) 4-429-3161",
       "email": "cocha-hos@ldschurch.org",
       "services" : [
@@ -113,7 +117,11 @@
     },
     {
       "name": "Lima, Perú",
-      "address": "Av. Javier Prado Este 6420 Urb. Santa Patricia La Molina, Lima 12, Peru",
+      "address": [
+        "Av. Javier Prado Este 6420",
+        "Urb. Santa Patricia",
+        "La Molina, Lima 12, Peru"
+      ],
       "telephone": "(51) 1-612-7200",
       "email": "lima-hos@ldschurch.org",
       "services" : [
@@ -227,7 +235,11 @@
     },
     {
       "name": "Santiago, Chile",
-      "address": "Pocuro #1940 Providencia 6641404 Santiago Region Metropolitana (Santiago), Chile",
+      "address": [
+        "Pocuro #1940 Providencia",
+        "6641404 Santiago",
+        "Region Metropolitana (Santiago), Chile"
+      ],
       "telephone": "(56) 22-340-5070",      
       "email": "santi-hos@ldschurch.org",
       "services" : [
@@ -333,7 +345,11 @@
     },
     {
       "name": "São Paulo, Brazil",
-      "address": "Av. Prof. Francisco Morato, 2390 Caxingui 05512-300 São Paulo - SP, Brazil",
+      "address": [
+        "Av. Prof. Francisco Morato, 2390",
+        "Caxingui",
+        "05512-300 São Paulo - SP, Brazil"
+      ],
       "telephone": "(55) 11-3723-7600",  
       "email": "spaulo-hos@ldschurch.org",
       "services" : [

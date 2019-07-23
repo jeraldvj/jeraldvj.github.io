@@ -72,3 +72,27 @@ nav {
     color: #ffffff;
   } 
 }
+
+#page{
+  display: none;
+}
+#artic{
+  position: relative;
+  padding: 30px;
+  text-decoration: none;
+  list-style:none
+}
+#supe{
+  display: flex;
+}
+#ima{
+  width: 600px;
+  margin: 15px;
+}
+.left {
+  width: 60%;
+  margin: 15px;
+}
+.titulo{
+  font-size: 30px;
+}

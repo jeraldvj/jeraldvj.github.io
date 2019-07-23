@@ -29,6 +29,7 @@ function showTemple(jsonObj) {
     var myDivT4 = document.createElement('div');
     var myDivT5 = document.createElement('div');
     var myDivT6 = document.createElement('div');
+    var myDivT7 = document.createElement('div');
     var myDiv1 = document.createElement('div');
     var myDiv2 = document.createElement('div');
     var myDiv3 = document.createElement('div');
@@ -43,6 +44,8 @@ function showTemple(jsonObj) {
     var myDiv13 = document.createElement('div');
     var myDiv14 = document.createElement('div');
     var myDiv15 = document.createElement('div');
+    var myDiv16 = document.createElement('div');
+    var myDiv17 = document.createElement('div');
     var myImg = document.createElement('img');
     var myH2 = document.createElement('h2');
     var myH3 = document.createElement('h3');
@@ -61,9 +64,11 @@ function showTemple(jsonObj) {
     var mySpanT10 = document.createElement('span');
     var mySpanT11 = document.createElement('span');
     var mySpanT12 = document.createElement('span');
+    var mySpanT13 = document.createElement('span');
     
 
     myH2.textContent = temple[cn].name;
+    myDivC1.appendChild(myH2);
 //    mySpanT0.textContent = 'Temperature';
 //    myPara0.textContent = 'current';
     mySpanT1.textContent = 'Address';
@@ -75,7 +80,7 @@ function showTemple(jsonObj) {
     for (var i = 0; i < temple[cn].services.length; i++) {
         if (i == 0) {
             mySpanT4.textContent = 'Services';
-            myDiv4.appendChild(mySpanT4);     
+            myDiv4.appendChild(mySpanT4).setAttribute('class' , "titulo");     
         }
         var myLi1 = document.createElement('li'); 
         myLi1.textContent = temple[cn].services[i];
@@ -86,7 +91,7 @@ function showTemple(jsonObj) {
     for (var i = 0; i < temple[cn].history.length; i++) {
         if (i == 0) {
             mySpanT5.textContent = 'History';
-            myDiv5.appendChild(mySpanT5);     
+            myDiv5.appendChild(mySpanT5).setAttribute('class' , "titulo");     
         }
         var myLi2 = document.createElement('li'); 
         myLi2.textContent = temple[cn].history[i];
@@ -96,7 +101,7 @@ function showTemple(jsonObj) {
     for (var i = 0; i < temple[cn].milestone.length; i++) {
         if (i == 0) {
             mySpanT6.textContent = 'Milestone';
-            myDiv6.appendChild(mySpanT6);     
+            myDiv6.appendChild(mySpanT6).setAttribute('class' , "titulo");     
         }
         var myLi3 = document.createElement('li'); 
         myLi3.textContent = temple[cn].milestone[i];
@@ -203,35 +208,35 @@ function showTemple(jsonObj) {
 
     mySpanT13.textContent = 'Closure';
     
-        for (var i = 0; i < temple[cn].closure.length; i++) {
+        for (var i = 0; i < temple[cn].closure[0].y2019.length; i++) {
             if (i == 0) {
                 var mySpanT8 = document.createElement('span');
                 mySpanT8.textContent = '2019';
-                myDiv14.appendChild(mySpanT8);     
+                myDiv16.appendChild(mySpanT8);     
             }
         var myLi4 = document.createElement('li'); 
         myLi4.textContent = temple[cn].closure[0].y2019[i];
-        myDiv14.appendChild(myLi4);        
+        myDiv16.appendChild(myLi4);        
         }
-        for (var i = 0; i < temple[cn].ordinances[0].sealing[0].saturday.length; i++) {
+        for (var i = 0; i < temple[cn].closure[0].y2020.length; i++) {
             if (i == 0) {
                 var mySpanT9 = document.createElement('span');
-                mySpanT9.textContent = 'Saturday';
-                myDiv15.appendChild(mySpanT9);     
+                mySpanT9.textContent = '2020';
+                myDiv17.appendChild(mySpanT9);     
             }
         var myLi5 = document.createElement('li'); 
-        myLi5.textContent = temple[cn].ordinances[0].sealing[0].saturday[i];
-        myDiv15.appendChild(myLi5);        
+        myLi5.textContent = temple[cn].closure[0].y2020[i];
+        myDiv17.appendChild(myLi5);        
         }
 
 
  //   myDiv1.appendChild(mySpanT0);
  //   myDiv1.appendChild(myPara0).setAttribute('id' , "temp");
-    myDiv1.appendChild(mySpanT1);
+    myDiv1.appendChild(mySpanT1).setAttribute('class' , "titulo");
     myDiv1.appendChild(myPara1);
-    myDiv2.appendChild(mySpanT2);
+    myDiv2.appendChild(mySpanT2).setAttribute('class' , "titulo");
     myDiv2.appendChild(myPara2);
-    myDiv3.appendChild(mySpanT3);
+    myDiv3.appendChild(mySpanT3).setAttribute('class' , "titulo");
     myDiv3.appendChild(myPara3);
     
     myDivT1.appendChild(myDiv1).setAttribute('id' , "address");
@@ -240,32 +245,37 @@ function showTemple(jsonObj) {
     myDivT1.appendChild(myDiv4).setAttribute('id' , "services");
     myDivT1.appendChild(myDiv5).setAttribute('id' , "history");
     myDivT1.appendChild(myDiv6).setAttribute('id' , "milestone");
-    myDivT2.appendChild(myImg).setAttribute('id' , "pi");
-    myDivS1.appendChild(myDivT1);
-    myDivS1.appendChild(myDivT2);
+    myDivT2.appendChild(myImg).setAttribute('id' , "ima");
+    myDivS1.appendChild(myDivT1).setAttribute('class' , "left");
+    myDivS1.appendChild(myDivT2).setAttribute('class' , "right");
     myDivS2.appendChild(myH3);
-    myDivT3.appendChild(mySpanT7);    
-    myDivT3.appendChild(myDiv8);
-    myDivT3.appendChild(myDiv9);
-    myDivT4.appendChild(mySpanT10);
-    myDivT4.appendChild(myDiv10);
-    myDivT4.appendChild(myDiv11);
-    myDivT5.appendChild(mySpanT11);
-    myDivT5.appendChild(myDiv12);
-    myDivT5.appendChild(myDiv13);
-    myDivT6.appendChild(mySpanT12);
-    myDivT6.appendChild(myDiv14);
-    myDivT6.appendChild(myDiv15);
+    myDivT3.appendChild(mySpanT7).setAttribute('class' , "subtitulo");    
+    myDivT3.appendChild(myDiv8).setAttribute('class' , "left");
+    myDivT3.appendChild(myDiv9).setAttribute('class' , "right");
+    myDivT4.appendChild(mySpanT10).setAttribute('class' , "subtitulo");
+    myDivT4.appendChild(myDiv10).setAttribute('class' , "left");
+    myDivT4.appendChild(myDiv11).setAttribute('class' , "right");
+    myDivT5.appendChild(mySpanT11).setAttribute('class' , "subtitulo");
+    myDivT5.appendChild(myDiv12).setAttribute('class' , "left");
+    myDivT5.appendChild(myDiv13).setAttribute('class' , "right");
+    myDivT6.appendChild(mySpanT12).setAttribute('class' , "subtitulo");
+    myDivT6.appendChild(myDiv14).setAttribute('class' , "left");
+    myDivT6.appendChild(myDiv15).setAttribute('class' , "right");
+    myDivT7.appendChild(mySpanT13).setAttribute('class' , "subtitulo");
+    myDivT7.appendChild(myDiv16).setAttribute('class' , "left");
+    myDivT7.appendChild(myDiv17).setAttribute('class' , "right");
     myDivS2.appendChild(myDivT3);
     myDivS2.appendChild(myDivT4);
     myDivS2.appendChild(myDivT5);
     myDivS2.appendChild(myDivT6);
-    myDivC1.appendChild(myDivS1);
-    myDivC1.appendChild(myDivS2);
-    myDiv.appendChild(myDivC1);
-    myArticle.appendChild(myDiv).setAttribute('id' , "divi");
+    myDivS2.appendChild(myDivT7);
+    myDivC1.appendChild(myDivS1).setAttribute('id' , "supe");
+    myDivC1.appendChild(myDivS2).setAttribute('id' , "infe");
+    
+    myDiv.appendChild(myDivC1).setAttribute('id' , "contenedor");
+    myArticle.appendChild(myDiv).setAttribute('id' , "divis");
 
-    section.appendChild(myArticle).setAttribute('id' , "arti");
+    section.appendChild(myArticle).setAttribute('id' , "artic");
          
 }
 

@@ -291,7 +291,7 @@ function showTemple(jsonObj) {
 }
 
 let weatherRequest = new XMLHttpRequest();
-let apiURLstring = 'https://api.openweathermap.org/data/2.5/weather?id=3919966&units=imperial&APPID=5155b328d398b92be7cd1e1112e8e8da';
+let apiURLstring = 'https://api.openweathermap.org/data/2.5/weather?id=3873544&units=imperial&APPID=5155b328d398b92be7cd1e1112e8e8da';
 
 weatherRequest.open('Get' , apiURLstring, true);
 weatherRequest.send();

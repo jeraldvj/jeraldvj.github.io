@@ -30,20 +30,29 @@ nav {
 }
 .desk {
   list-style: none;
-  text-align: center;
+  
   font-size: 25px;
 }
 .desk li:first-child {
   display: block;
 }
+.desky li:first-child {
+  display: none;
+}
+
 .desk li, .temp {
   display: none;
 }
-.desk a {
+.desky li{
+  display: none;
+  margin: auto;
+}
+
+.desk a{
   display: block;
   color: #ffffff;
   padding: .75rem;
-  text-align: center;
+  
   text-decoration: none;
 }
 .desk a:hover {
@@ -55,49 +64,103 @@ nav {
 /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
   <ul class="navigation responsive">
   */
-	.responsive li {
+	.responsive li{
     display: block;
+  }
+  .responsive li:first-child {
+    display: block;
+  }
+  .responsitive li {
+    display: none;
   }
 
 /* Media Query for medium + screens */
 @media only screen and (min-width: 38.5em) {
+  .desk {
+    display: flex;
+  }
   .desk li:first-child {
     display: none;
   }
-	.desk li {
-    display: inline-block;
+  .desky li:first-child {
+    display: block;
+  }
+  .desk ul {
+    display: block;
+  }
+	.desk li{
+    display: flex;
     margin-right: 1rem;
   }	
+  .desky li {
+    display: none;
+  }	
+  .responsitive li{
+    display: block;
+  }
+  
 	.desk li a {
     color: #ffffff;
   } 
 }
-
+#contenedor h2{
+  font-size: 4em;
+}
 #page{
   display: none;
 }
 #artic{
   position: relative;
-  padding: 30px;
+  padding: 50px;
   text-decoration: none;
   list-style:none
 }
 #supe{
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 #divi{
   position: relative;
-
+}
+.center{
+  padding: 10px;
+  justify-content: center;
+  grid-column-end: span 2;
 }
 #ima{
-  position: absolute;
-  right: 30px;
-  width: 500px;
+  display: flex;
+  width: 600px;
   margin: 15px;
 }
-.left {
+#temp{
+  font-size: 5em;
+}
+.lefts {
   margin: 15px;
+}
+.rights{
+  width: 70%;
 }
 .titulo{
   font-size: 30px;
+}
+.titulo2{
+  font-size: 40px;
+  padding: 10px;
+  background-color: #F5B681;
+}
+.infe{
+  margin: 0px;
+}
+.secinfe{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 20px;
+}
+.subtitulo{
+  grid-column-end: span 2;
+  font-size: 30px;
+}
+.subsubtitulo{
+  font-size: 20px;
 }

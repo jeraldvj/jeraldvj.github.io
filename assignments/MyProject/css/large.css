@@ -202,6 +202,10 @@ nav {
 .hero{
   width: 100%;
 }
+.hero2{
+  height: 300px;
+  object-fit: cover;
+}
 .images{
   width: 400px;
   height: 250px;
@@ -211,4 +215,13 @@ nav {
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 4px 4px 4px #4F5C80;
+}
+.mess{
+  font-size: 2em;
+  background-color: #F5B681;
+  padding: 10px;
+}
+.sepa{
+  display: grid;
+  grid-template-columns: 250px 400px;
 }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <title>Reservation | Temple Inn & Suite</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/large.css">     
+    <script src="js/hamburger.js"></script>
+  </head>
+  <body>
+  <header>
+    <a href="index.html">
+    <img id="icon" src="images/logo.jpg" alt="icon weather">
+    <div class="logotype">
+    <h1 id="title">Temple Inn & Suite</h1>
+    </div>
+    </a>
+  </header>
+      <div class="contain">    
+          <div class="container">
+          <nav>
+              <ul class="desk">
+                  <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776;Menu</a></li>
+                  <li><a href="index.html" title="Home">Home</a></li>
+                  <ul class="desky">
+                      <li><a href="#" title="Temple" onclick="toggleeMenu()">Temple</a></li>
+                      <li><a href="temple-cocha.html" title="Cochabamba, Bolivia">Cochabamba, Bolivia</a></li>
+                      <li><a href="temple-lima.html" title="Lima, Perú">Lima, Perú</a></li>
+                      <li><a href="temple-santi.html" title="Santiago, Chile">Santiago, Chile</a></li>
+                      <li><a href="temple-sao.html" title="São Paulo, Brazil">São Paulo, Brazil</a></li>
+                  </ul>
+                  <li><a href="reservation.html" title="Reservation">Reservation</a></li>
+                  <ul class="desky2">
+                        <li><a href="#" title="Temple" onclick="togglee2Menu()">Services</a></li>
+                        <li><a href="reception.html" title="reception">Reception</a></li>
+                        <li><a href="missionarytemple.html" title="Missionary Temple">Full-time Temple Missionary</a></li>                        
+                    </ul>                                  
+                  <li><a href="stormcenter.html" title="Contact Us">Contact Us</a></li>     
+              </ul>
+          </nav>
+          </div>    
+    <main>
+        <h1>Reservation</h1>
+        <section class="reservation">
+        <div class="divided">
+        <form action="../MyProject/thanks.html">
+            <label for="fullname"><b>Full Name:</b></label><input type="text" name="fullname" pattern="[A-Za-z].{4,}" required><br>
+            <label for="email"><b>E-mail:</b></label><input type="email" name="email" placeholder="user@email.org"><br>
+            <label for="p"><b>Phone:</b></label><input type="tel" name="phone" placeholder="###-###-####" required><br>
+            <label for="hstate"><b>Home State:</b></label><input type="text" name="hstate" required><br>    
+            <label for="date"><b>Date of Reservation:</b></label><input type="date" name="dreservation"><br>
+            <label for="locationtype"><b>Temple Location:</b></label>
+            <input name="locationtemple" list="Datalist">
+            <datalist id="Datalist">
+                <option value="Cochabamba, Bolivia">
+                <option value="Lima, Perú">
+                <option value="Santiago, Chile">
+                <option value="São Paulo, Brazil">                
+            </datalist><br>
+        </div>
+        <div class="divided">
+            <label for="stormseverity"><b>Type of Room (1 to 5) :</b><br>(5 is our best Room Suite)<br></label>
+            <input type="range" id="typeofroom" value="1" min="1" max="5" step="1" oninput="SSvalue(this.value)" onchange="SSvalue(this.value)">
+            <span id="ssvalue">1</span><br>
+            <label for="nrroom"><b>Room Number:</b></label><input type="number" name="nroom" required><br>
+            <fieldset>
+                <legend>Do you have children? <em>(Choose one)</em></legend>
+                <div>
+                    <input type="radio" id="option1" name="option" value="Yes" checked>
+                    <label for="option1">Yes</label>
+                </div>               
+                <div>
+                    <input type="radio" id="option2" name="option" value="No">
+                    <label for="option3">No</label>
+                </div>
+            </fieldset>
+            <textarea rows="7" cols="50" placeholder="Additional information or comments."></textarea><br>    
+            <input type="submit" value="Submit">
+        </div>
+        <div class="divided">
+            <img class="broom cont" src="images/bedroom.jpg" alt="bed room">
+        </div>
+        </form>
+        </section>
+    </main>
+
+    <footer>         
+        <p class="copyright" >&copy; 2019 TempleInn.com | <a target="_blank" href="https://www.churchofjesuschrist.org/temples/list">ChurchOfJesusChrist.org</a> | Jerald Vasquez Jimenez </p>
+        <p id="currentDate">Current Date</p>
+    </footer>
+    </div>
+    <script src="js/currentdate.js"></script>
+  </body>
+</html>

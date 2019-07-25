@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     user-select: none;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 #icon{
     width: 6em;
@@ -57,4 +57,7 @@ footer{
 footer a{
     text-decoration:none;
     color: #FFFFFF;
+}
+#message{
+    margin: 25px;
 }

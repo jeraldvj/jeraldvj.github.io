@@ -30,7 +30,6 @@ nav {
 }
 .desk {
   list-style: none;
-  
   font-size: 25px;
 }
 .desk li:first-child {
@@ -39,11 +38,17 @@ nav {
 .desky li:first-child {
   display: none;
 }
-
+.desky2 li:first-child {
+  display: none;
+}
 .desk li, .temp {
   display: none;
 }
 .desky li{
+  display: none;
+  margin: auto;
+}
+.desky2 li{
   display: none;
   margin: auto;
 }
@@ -70,7 +75,11 @@ nav {
   .responsive li:first-child {
     display: block;
   }
+  
   .responsitive li {
+    display: none;
+  }
+  .responsitive2 li {
     display: none;
   }
 
@@ -85,6 +94,9 @@ nav {
   .desky li:first-child {
     display: block;
   }
+  .desky2 li:first-child {
+    display: block;
+  }
   .desk ul {
     display: block;
   }
@@ -95,12 +107,19 @@ nav {
   .desky li {
     display: none;
   }	
+  .desky2 li {
+    display: none;
+  }	
   .responsitive li{
+    display: block;
+  }
+  .responsitive2 li{
     display: block;
   }
   
 	.desk li a {
     color: #ffffff;
+     
   } 
 }
 #contenedor h2{
@@ -152,7 +171,7 @@ nav {
 .infe{
   margin: 0px;
 }
-.secinfe{
+.secinfe, .foodserv{
   display: grid;
   grid-template-columns: 50% 50%;
   padding: 20px;
@@ -160,7 +179,36 @@ nav {
 .subtitulo{
   grid-column-end: span 2;
   font-size: 30px;
+  font-style: italic;
 }
 .subsubtitulo{
   font-size: 20px;
+}
+#address, #telephone, #email, #services,#history, #milestone{
+  margin: 10px;
+}
+.princ{
+  font-size: 3em;
+}
+.speserv, .foodserv, .freeserv {
+  margin: 20px;
+}
+.ame{
+  width: 300px;
+}
+.foodserv h2{
+  margin-bottom: 15px;
+}
+.hero{
+  width: 100%;
+}
+.images{
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+}
+.cont{
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px #4F5C80;
 }

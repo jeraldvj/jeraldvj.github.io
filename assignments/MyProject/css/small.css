@@ -7,14 +7,16 @@
     box-sizing: border-box;    
 }
 #icon{
-    width: 6em;
+    width: 10em;
     float: left;
 }
 .logotype{
-    padding: 5px;
+    padding: 0px;
+    font-family: 'Cinzel', serif;
+    min-width: 480px;
 }
 #title{
-    padding-top: 35px; 
+    padding-top: 30px; 
     text-shadow: 2px 2px #9c9c9c;
 }
 body{

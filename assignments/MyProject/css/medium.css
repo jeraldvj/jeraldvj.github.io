@@ -78,7 +78,7 @@ textarea{
     height: 550px;
     object-fit: cover;
 }
-h1{
+#head1{
     margin: 15px;
 }
 #ssvalue{

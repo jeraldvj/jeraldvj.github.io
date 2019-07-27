@@ -27,6 +27,7 @@
         var myPara1 = document.createElement('p');
         var myPara2 = document.createElement('p');
         var mybut = document.createElement('button');
+        var mya = document.createElement('a');
 
         myH2.textContent = temple[i].name;
         myPara1.textContent = 'Address: ' + temple[i].address;
@@ -38,11 +39,15 @@
         myImg.setAttributeNode(attr);
 
         var cli = document.createAttribute("onclick");
-        cli.value = "location.href='https://jeraldvj.github.io/'";
+        cli.value = "location.href='https://jeraldvj.github.io/assignments/MyProject/reservation.html'";
         mybut.setAttributeNode(cli);
 
+        var ad = document.createAttribute("href");
+        ad.value = "temple" + i + ".html";
+        mya.setAttributeNode(ad);
 
-        myDiv1.appendChild(myImg).setAttribute('id' , "pi");
+        mya.appendChild(myImg).setAttribute('id' , "pi");
+        myDiv1.appendChild(mya).setAttribute('id' , "pi");
         myDiv2.appendChild(myH2).setAttribute('id' , "hd");
         myDiv2.appendChild(myPara1).setAttribute('id' , "p1d");
         myDiv2.appendChild(myPara2).setAttribute('id' , "p2d");

@@ -51,7 +51,7 @@
     #novo{
         display: grid;
         grid-template-columns: 500px;
-        grid-template-rows: 560px;
+        grid-template-rows: 360px;
         justify-content: center;
         }
     #pi{
@@ -60,4 +60,12 @@
         object-fit: cover;
         bottom: -5px; 
         }
+    #but{
+        width: 200px;
+        height: 140px;
+        font-size: 2em;
+        color: rgb(255, 255, 255);
+        background-color: #F5B681;
+        }
+    
     }

@@ -248,4 +248,20 @@ nav {
     grid-column-end: span 1;
   }
   
+  .foodserv{
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 20px;
+  }
+  .subtitulo{
+    grid-column-end: span 1;
+  }
+  .ame{
+    width: 330px;
+  }
+  .servleft, .servright{
+    padding: 10px;
+    background-color: snow;
+    box-shadow: 4px 4px 4px black;
+  }
 }

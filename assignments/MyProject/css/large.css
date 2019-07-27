@@ -227,11 +227,15 @@ nav {
   padding: 10px;
 }
 .sepa{
+  margin-left: 10%;
   display: grid;
   grid-template-columns: 250px 400px;
 }
 #contenedor h2{
   font-family: 'Cinzel', serif;
+}
+#map2{
+  display: none;
 }
 @media screen and (max-width: 720px) {
   #ima{
@@ -263,5 +267,19 @@ nav {
     padding: 10px;
     background-color: snow;
     box-shadow: 4px 4px 4px black;
+  }
+  .sepa{
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  #map1{
+    display: none;
+  }
+  #map2{
+    display: block;    
+  }
+  #artic{
+    padding: 10px;    
   }
 }
